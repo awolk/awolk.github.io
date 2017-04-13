@@ -9,3 +9,10 @@ body {
 #intro {
 	color: white;
 }
+
+footer {
+	color: black;
+	position: fixed;
+	bottom: 0;
+	right: 1rem;
+}
