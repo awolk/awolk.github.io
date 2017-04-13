@@ -1,0 +1,11 @@
+body {
+  padding-top: 4rem;
+  height:100%;
+  text-align: center;
+  background: url(/slide.jpg) no-repeat center fixed;
+  background-size: cover;
+}
+
+#intro {
+	color: white;
+}
