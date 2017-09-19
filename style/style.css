@@ -1,6 +1,4 @@
 body {
-  padding-top: 4rem;
-  height:100%;
   text-align: center;
   background: url(/img/slide.jpg) no-repeat center fixed;
   background-size: cover;
@@ -8,11 +6,19 @@ body {
 
 #intro {
 	color: white;
+	margin-top: 4rem;
+	margin-bottom: 1rem;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#links a:hover {
+	opacity: 0.8;
 }
 
 footer {
 	color: black;
 	position: fixed;
 	bottom: 0;
+	font-size: 14px;
 	right: 1rem;
 }
