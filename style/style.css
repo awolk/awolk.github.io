@@ -11,13 +11,33 @@ body {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-#links a:hover {
+.link {
+	padding: 0 8px;
+	font-size: 72px;
+}
+
+.link img {
+	position: relative;
+	top: 3px;
+	height: 60px;
+}
+
+.link a {
+	text-decoration: none;
+}
+
+.link a:visited {
+	color: black;
+}
+
+.link a:hover {
 	opacity: 0.8;
+	filter: alpha(opacity=80);
 }
 
 footer {
 	color: black;
-	position: fixed;
+	position: absolute;
 	bottom: 0;
 	font-size: 14px;
 	right: 1rem;
