@@ -33,29 +33,53 @@
     <meta name="msapplication-square310x310logo" content="/fav/mstile-310x310.png" />
 </head>
 <body>
-<div id="intro">
-    <h1>Aidan Wolk</h1>
-    UCLA Student<br/>
-    Software Engineer<br/>
-    Coffee Enthusiast<br/>
-</div>
-<br/>
-<div>
+<div id="body">
+    <div id="intro">
+        <h1>Aidan Wolk</h1>
+        UCLA Student<br/>
+        Software Engineer<br/>
+        Coffee Enthusiast<br/>
+    </div>
+    <br/>
+    <div id="links">
     <span class="link">
         <a href="https://github.com/awolk">
             <span class="fa fa-github"></span>
         </a>
     </span>
-    <span class="link">
+        <span class="link">
         <a href="https://www.linkedin.com/in/aidanwolk/">
             <span class="fa fa-linkedin-square"></span>
         </a>
     </span>
-    <span class="link">
+        <span class="link">
         <a href="https://devpost.com/aidanwolk">
-            <img src="/img/devpost.svg" onerror="this.src='/img/devpost-512.png'; this.onerror=null">
+            <img src="/img/devpost.svg" onerror="this.src='/img/devpost-512.png'; this.onerror=null" />
         </a>
     </span>
+    </div>
+    <h1>Projects:</h1>
+    <div id="projects">
+        <div class="project">
+            <h1>CHIPS Website</h1>
+            <a href="https://chips.ucla.edu" target="_blank"><img src="/img/CHIPS.png"></a>
+            <p>
+                Public website for the Center for Heterogeneous Integration and Performance Scaling. It includes a user
+                and event system, specialized CMS, email service, and administrative suite. I built the site with
+                Node.js/Express, Bootstrap, PostgreSQL, and AWS.
+            </p>
+        </div>
+        <div class="project">
+            <h1>What the Happening</h1>
+            <img src="/img/WTH.png">
+            <p>
+                What the Happening is a web app that allows users to input and view popular events in a given area. Each
+                event's time and description are displayed in chronological order on the left sidebar. Each event is also
+                displayed on a live map in relation to the user's current location. The website was built with Express.js,
+                Node.js, Bootstrap, and Google Maps API.
+            </p>
+        </div>
+    </div>
 </div>
 <footer>
     Photograph by James Clark
